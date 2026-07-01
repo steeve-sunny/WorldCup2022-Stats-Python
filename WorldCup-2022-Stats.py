@@ -44,5 +44,8 @@ def TopGoalScorer():
     sorted_scorers = sorted(goal_scorers.items(), key=lambda x: x[1], reverse=True)
     return f"{sorted_scorers[0][0]} with {sorted_scorers[0][1]} goals "
 
+#when wanting to use the particular functions need to uncomment the code below
+#you have to type in the player name for the Goals function
+
 #print(TopGoalScorer())
 #print(Goals('Neymar'))
