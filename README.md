@@ -12,65 +12,38 @@ What It Does
 
 
 
-## 📖 How to Use
-
-### Get a specific player's goals
+How to Use;
+Get a specific player's goals
 Uncomment the bottom of the file and call the `Goals()` function with a player's name:
 
-```python
 print(Goals('Neymar'))       # Returns 2
 print(Goals('Lionel Messi')) # Returns 7
 print(Goals('Harry Kane'))   # Returns 2
-```
+
 
 If a player didn't score, it returns `0` instead of crashing.
+Get the top goal scorer;
 
-### Get the top goal scorer
-```python
 print(TopGoalScorer())
-# Output: Lionel Messi with 7 goals
-```
+Output: Lionel Messi with 7 goals
 
----
 
-## 🗂️ Project Structure
 
-```
-WorldCup2022-Stats/
-│
-├── WorldCup-2022-Stats.py   # Main script
-└── README.md                # You are here
-```
-
----
-
-## 🌐 Data Source
+Data Source:
 
 All data is fetched from the open source [openfootball/worldcup.json](https://github.com/openfootball/worldcup.json) repository — no API key or sign up required.
 
----
 
-## 🛠️ Functions
+Key Concepts Used
 
-| Function | Description | Example |
-|---|---|---|
-| `Goals(name)` | Returns goals scored by a player | `Goals('Messi')` → `7` |
-| `TopGoalScorer()` | Returns the tournament's top scorer | `'Lionel Messi with 7 goals'` |
-
----
-
-## 📌 Key Concepts Used
-
-- `requests.get()` — fetching data from a URL
-- `.json()` — parsing the response into a Python dictionary
-- `for` loops — iterating through matches and goals
-- `dict.get()` — safe access with fallback to avoid crashes
-- `sorted()` with `lambda` — sorting a dictionary by value
+- requests.get() — fetching data from a URL
+- .json() — parsing the response into a Python dictionary
+- for loops — iterating through matches and goals
+- dict.get() — safe access with fallback to avoid crashes
+- sorted() with `lambda` — sorting a dictionary by value
 - Functions with error handling
 
----
 
-## 👤 Author
-
-**Steeve Sunny**  
+Author:
+Steeve Sunny 
 [github.com/steeve-sunny](https://github.com/steeve-sunny)
