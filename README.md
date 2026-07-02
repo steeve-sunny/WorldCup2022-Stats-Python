@@ -1,9 +1,7 @@
-World Cup 2022 Stats
-
+World Cup 2022 Stats:
 A Python project that fetches live World Cup 2022 data from a public API and lets you query goal scorers, individual player stats, and the tournament's top scorer.
 
-What It Does
-
+What It Does:
 - Fetches all World Cup 2022 match data from a public JSON API
 - Parses every match and extracts goal scorer information
 - Stores each player's goal tally in a dictionary
@@ -12,7 +10,7 @@ What It Does
 
 
 
-How to Use;
+How to Use:
 Get a specific player's goals
 Uncomment the bottom of the file and call the `Goals()` function with a player's name:
 
@@ -30,12 +28,10 @@ Output: Lionel Messi with 7 goals
 
 
 Data Source:
-
 All data is fetched from the open source [openfootball/worldcup.json](https://github.com/openfootball/worldcup.json) repository — no API key or sign up required.
 
 
-Key Concepts Used
-
+Key Concepts Used:
 - requests.get() — fetching data from a URL
 - .json() — parsing the response into a Python dictionary
 - for loops — iterating through matches and goals
