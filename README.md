@@ -1,4 +1,5 @@
 World Cup 2022 Stats:
+
 A Python project that fetches live World Cup 2022 data from a public API and lets you query goal scorers, individual player stats, and the tournament's top scorer.
 
 What It Does:
